@@ -5,17 +5,6 @@ body {
     display:block;
   }
   
-  #main {
-      width: 100%;
-      margin: auto;
-      align-items:center;
-    justify-self: center;
-    position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-  }
-  
   input {
     border: none;
     outline: none;
@@ -27,6 +16,19 @@ body {
     cursor: pointer;
     background-color: white;
   }
+
+  /* MAIN*/
+
+  #main {
+    width: 100%;
+    margin: auto;
+    align-items:center;
+  justify-self: center;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
   
   .content {
     padding-top: 120px;
@@ -62,6 +64,8 @@ body {
       pointer-events: none;
       color: #aaa;
   }
+
+  /*NAV*/
   
   .nav{
     display: flex;
@@ -86,7 +90,7 @@ body {
   }
   
   #menu{
-    heigth:30px;
+    height:30px;
     width:30px;
     margin:15px 15px;
   }
@@ -96,11 +100,12 @@ body {
     padding: 0px 12px;
     border-radius: 2px;
     font-size:13px;
-    line-heigth: normal;
+    line-height: normal;
     font-family: arial,sans-serif;
      font-weight: bold;
   }
   
+  /*MAIN SEARCH BUTTONS*/
   .search-buttons{
       height: 70px;
     padding-top: 18px;
@@ -127,6 +132,8 @@ body {
     border-color: #dadce0;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   }
+
+  /*FOOTER*/
   
   .footer{
   left: 0;
@@ -162,6 +169,8 @@ body {
     margin-right: 30px;
   float: right;
   }
+
+  /*MEDIA*/
   
   @media (max-width: 500px) {
     .footer {
